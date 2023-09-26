@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 function submit (){
@@ -17,7 +16,6 @@ function submit (){
 
     window.location.href = "result.html"
 }
-=======
 function generateUrl() {
   let listNews = [
     `https://www.liputan6.com/citizen6/read/5399016/6-manfaat-telur-yang-dapat-kamu-peroleh-bila-rutin-mengonsumsinya`,
@@ -33,4 +31,3 @@ function generateUrl() {
 
   element.setAttribute("href", listNews[newsRandom])
 }
->>>>>>> f7cf4842cf03291db47bf1acc0d6b78c378cf160
