@@ -23,7 +23,7 @@ function displayData() {
     } else if(bmi >=25 && bmi <= 29.9) {
         status.innerText = 'Kamu Kelebihan Berat Badan'
     } else {
-        status.innerText = 'Kamu Kegemukan'
+        status.innerHTML = 'Kamu Kegemukan <br><span class = "text-lg"> Jika kamu ingin menaikkan berat badan! kamu membutuhkan 1755 kkal/hari.Jika hari ini kamu hanya rebahan, maka kebutuhan kalori kamu adalah 1064 kkal/hari</span>'
     }
 
 //  BMR untuk Pria: 66.5 + (13,7 x berat badan) + (5 x tinggi badan) – (6,8 x usia)
