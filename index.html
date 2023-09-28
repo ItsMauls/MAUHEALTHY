@@ -12,53 +12,64 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
-<body class="bg-white">
-    <div class="grid grid-cols-3">
-        <div class="flex flex-col ">
-            <h1 class="text-5xl tracking-wider font-libre text-green-950 pl-8 mt-14">MAUHEALTHY<span class="text-xl">.com</span></h1>
-           
-            <div class="text-green-900 pl-8 text-3xl mt-3 font-nunito ">
+<body background="image/bg-yello.png">
+    <!-- <div class="grid grid-cols-3"> -->
+        <!-- <div class="flex flex-col "> -->
+            
+            <!-- <div class="text-black pl-8 text-3xl mt-3 font-nunito ">
                 <h1>MAU</h1>
                 <h1>HEALTHY?</h1>
                 <h1>MAU DONG</h1>
                 <h1>MASA NGGAK.</h1>
+            </div> -->
+            <div class="absolute right-0 text-center rounded-xl text-black font-libre py-2 mr-4 backdrop-blur-md w-1/12 bg-white bg-opacity-30">
+                About Us 
             </div>
             <div class="mt-8">
-            
-                <div action="result.html" class="flex flex-col items-center justify-center mt-44">
-                    <h2 class="text-start text-green-900 font-nunito">Please fill the data below :</h27>
-                    <div class="mb-4 mt-2">
-                        <!-- <label for="username" class="font-libre">Username</label> -->
-                        <input type="text" id="username" class="block bg-green-900  mx-auto px-28 py-4 rounded-2xl font-libre bg-opacity-50 placeholder:text-green-950  placeholder:tracking-wider text-center" id="username" placeholder="Username">
-                    </div>
-                    <div class="mb-4 mx-2">
-                        <!-- <label for="height" class="font-libre">Height</label> -->
-                        <input type="number" id="height" class="mx-auto rounded-2xl font-libre py-4 bg-green-900 bg-opacity-40 text-center placeholder:text-green-900 placeholder:tracking-wider" id="height" placeholder="Height">
-                    
-                        <!-- <label for="weight" class="font-libre">Weight</label> -->
-                        <input type="number" id="weight" class="mx-auto rounded-2xl font-libre py-4 bg-green-900 bg-opacity-40 text-center placeholder:text-green-900 placeholder:tracking-wider" id="weight" placeholder="Weight">
-                    </div>
-                    <div class="mb-4 mx-2">
-                        <!-- <label for="age" class="font-libre">Age</label> -->
-                        <input type="number" id="age" class="mx-auto rounded-2xl font-libre py-4 bg-green-950 bg-opacity-20 text-center placeholder:text-green-900 placeholder:tracking-wider" id="age" placeholder="Age">
                 
-                        <!-- <label for="gender" class="font-libre">Gender</label> -->
-                        <input type="text" id="gender" class="mx-auto rounded-2xl font-libre py-4 bg-green-950 bg-opacity-20 text-center placeholder:text-green-900 placeholder:tracking-wider" id="gender" placeholder="Gender">
+                <div class="flex flex-col ml-12 mt-14 rounded-2xl backdrop-blur-xl w-2/6 bg-white bg-opacity-70 mx-auto">
+                    <h1 class="text-5xl tracking-wider mx-auto font-libre text-black my-44">MAUHEALTHY</h1>
+                    <h2 class="text-start text-black font-nunito ml-14">Please fill the data below :</h2>
+                    
+                        <div class="mb-4">
+                            <input type="text" id="username" class="block bg-white px-32 mx-auto py-4 rounded-2xl font-libre bg-opacity-50 placeholder:text-black  placeholder:tracking-wider text-center" id="username" placeholder="Username">
+                        </div>
+                    
+                    <div class='flex justify-between'>
+                        <div class="mb-4 ml-14">
+                            <input type="number" id="height" class="mx-auto rounded-2xl font-libre py-4 bg-white bg-opacity-50 text-center placeholder:text-black placeholder:tracking-wider" placeholder="Height">
+                        </div>
+                    
+                    
+                        <div class="mb-4 mr-14">
+                            <input type="number" id="weight" class="mx-auto rounded-2xl font-libre py-4 bg-white bg-opacity-50 text-center placeholder:text-black placeholder:tracking-wider" id="weight" placeholder="Weight">
+                        </div>
                     </div>
-                    <button class="bg-green-700 mx-auto opacity-30 flex justify-center text-center text-white mt-4 px-14 rounded-xl py-2 hover:bg-green-900" onclick="submit()">Submit</button>
+                    
+                    <div class='flex justify-between'>
+                        <div class="mb-4 ml-14">
+                            <input type="number" id="age" class="mx-auto rounded-2xl font-libre py-4 bg-white bg-opacity-50 text-center placeholder:text-black placeholder:tracking-wider" id="age" placeholder="Age">
+                        </div>
+                    
+                        <div class="mb-4 mr-14">
+                            <input type="text" id="gender" class="mx-auto rounded-2xl font-libre py-4 bg-white bg-opacity-50 text-center placeholder:text-black placeholder:tracking-wider" id="gender" placeholder="Gender">
+                        </div>
+                    </div>
+                    
+                    <button class="bg-orange-950 py-3 bg-opacity-30 flex justify-center text-center font-libre mx-auto text-black mt-4 px-48 rounded-xl mb-24 hover:bg-white" onclick="submit()">Submit</button>
                 </div>
-            </div>
+                
            
-        </div>
+        <!-- </div> -->
 
-        <div class="col-span-2">
+        <!-- <div class="col-span-2">
             <img src="image\185.jpg" class="w-full h-screen object-cover " alt="">
             <h1 class="absolute text-green-950 ml-8 text-2xl font-semibold opacity-40 font-libre top-0 mt-14">WE PROVIDE MOST
                 <br> RELATABLE DIET PLAN
                 <br> AND HEALTHY THINGS</h1>
                 <a href="#" class="absolute top-0  text-red-950 mt-40 ml-8 text-2xl opacity-90 underline font-bold" id="article" onclick="generateUrl()">SEE MORE ARTICLE</a>
-        </div>
-    </div>
+        </div> -->
+    <!-- </div> -->
 </body>
 <script src="script.js"></script>
 </html>
